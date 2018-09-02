@@ -1,7 +1,9 @@
+//including the library
 #include<iostream>
 using namespace std;
-
+//using the main function
 int main() {
+    //defining the variables
     float a,b,c;
     cout<<"first number"<<endl;
     cin>> a;
@@ -9,6 +11,7 @@ int main() {
     cin>> b;
     cout<<"third number"<<endl;
     cin>> c;
+    //condition
     if(a>b&&a>c)
     {
         cout<<a<<"is greater";
@@ -21,5 +24,6 @@ int main() {
     {
         cout<<c<<"is greater";
     }
+    //terminating the program
     return 0;
 }
